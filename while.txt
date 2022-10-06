@@ -1,0 +1,2 @@
+ create procedure while_loop1() begin declare num int default 1; declare res varchar(50) default ''; while num < 70000 do set res = concat(res , num, ','); set num =num*3; end while; select res;
+    -> end //
